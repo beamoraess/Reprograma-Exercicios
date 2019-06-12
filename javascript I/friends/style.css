@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background: white;
+    text-align: center
+}
+
+.img-friends {
+    width: 800px;
+}
+
+.logo{
+    height: 50vh;
+    margin-top: 100px
+}
+
+.botao{
+    height: 30vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}

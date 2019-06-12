@@ -1,0 +1,41 @@
+body{
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.container{
+    text-align: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    text-shadow: -1px -1px 0px #fdfdfd, 3px 3px 0px #eef3f7, 6px 6px 0px #161719ba;
+    font-size: 60px;
+}
+
+img{
+    width: 500px;
+}
+
+.btn{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 0 none;
+    cursor: pointer;
+    background-color: #088cc0;
+    box-shadow: 0px 5px 0px 0px #ffce9;
+}
+
+p {
+    font-size: 20px;
+}

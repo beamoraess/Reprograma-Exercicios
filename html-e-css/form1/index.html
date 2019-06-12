@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulários</title>
+    </head>
+    <body>
+        <h1>Preencha Aqui</h1>
+        <form action="sucesso.html" method="POST">
+            <div>
+                <label>Nome:</label>
+                <input type="text" placeholder="Seu Nome Aqui">
+            </div>
+           <div> 
+                <label>Senha:</label>
+                <input type="password" placeholder="Sua Senha Aqui">
+            </div>
+            <div>
+                <label>Seu Email:</label>
+                <input type="email" placeholder="Seu Nome Aqui">
+            </div>
+            <div>
+                <label for="idade-da-pessoa"> Sua Idade </label>
+                <input type="number" name="idade-da-pessoa">
+            </div>
+            <div>
+                <label>Declaro que sou muito talentosa</label>
+                <input type="checkbox" name="usuaria-talentosa">
+            </div>
+            <div>
+                <label for="cidade-da-pessoa"> Sua Cidade </label>
+                <select name="cidade-da-pessoa">
+                    <option value="sao-paulo">São Paulo</option>
+                    <option value="rio-de-janeiro">Rio de Janeiro</option>
+                    <option value="ribeirao-pires">Ribeirão Pires</option>
+                </select>
+            </div>
+            <div>
+                <label>Selecione sua profissão:</label>
+                <input type="radio" name="profissao" 
+                value="programadora"><span>Programadora</span>
+
+                <input type="radio" name="profissao" 
+                value="designer"><span>Designer</span>
+
+                <input type="radio" name="profissao" 
+                value="Arquiteta"><span>Arquiteta</span>
+            </div>
+            <div>
+                <textarea name="vida"rows="3" placeholder="Estudei na Reprograma em 2019">Conte sua vida:</textarea>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>

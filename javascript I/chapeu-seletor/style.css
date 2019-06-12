@@ -1,0 +1,31 @@
+body {
+    background: url(./assets/salao.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+img {
+    margin: 0 auto;
+    width: 400px;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.selecao {
+    align-items: center;
+}

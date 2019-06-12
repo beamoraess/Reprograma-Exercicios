@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: url(./assets/ceuestrelado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.img-bola {
+    width: 380px;
+}
+
+.pergunta {
+    width: 500px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+.botao {
+    width: 150px;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #02027d;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+}
+
+p {
+    font-size: 50px;
+    color: whitesmoke;
+}

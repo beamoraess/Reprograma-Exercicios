@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Segundo Formulário</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="formulario">
+        <form>
+
+            <div class="grupo">
+                <label for="nome">
+                    Texto
+                </label>
+                <input type="text" name="nome">
+    
+            </div>
+            <div class="grupo">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha">
+            </div>
+            <div class="grupo">
+                <label for="confirmacao">Confirme que voce é uma mulher cheia de talentos</label>
+                <input type="checkbox" name="confirmo-talentos"><span>confirmo que sou mesmo</span>
+            </div>
+        <div class="grupo">
+                <label for="opcao">Escolha uma opção:</label>
+
+            <div class="meia-coluna">
+                <input type="radio" name="opcao" value="forca"><span>Super força</span>
+                <input type="radio" name="opcao" value="invisivel"><span>Ser Invisivel</span>
+                <input type="radio" name="opcao" value="mentes"><span>Ler mentes</span>
+                <input type="radio" name="opcao" value="velocidade"><span>Super velocidade</span>
+            </div>
+        </div>
+            <div class="grupo">
+                <label for="topico">Selecione um tópico</label>
+                <select>
+                    <option value="site-bonito">Deixar meu site mais bonito</option>
+                    <option value="acabar-patriarcado">Acabar com o patriarcado</option>
+                    <option value="revolucao-feminista">Fazer a revolução feminista</option>
+                </select>
+            </div>
+            <div class="grupo">
+                <label for="valor">Escolha um valor</label>
+                <input type="number">
+            </div>
+            <div class="grupo">
+                <label for="comentario">Comentário</label>
+                <textarea rows="5"> </textarea>
+            </div>
+            <div class="btn">
+            <input class="btn_cinza" type="reset" value="reset">
+            <input class= 'btn_roxo' type="submit" value="Submit">
+        </div>
+        </form>
+    </section>
+</body>
+
+</html>
